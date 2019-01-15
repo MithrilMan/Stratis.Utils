@@ -1,13 +1,14 @@
 ﻿using System;
+using System.Reflection;
 using Xunit.Sdk;
 
 namespace Xunit
 {
     /// <summary>
-    /// Works just like [Fact] except that failures are retried (by default, 3 times).
+    /// Works just like [Fact] except that failures are retried (by default, 1 time).
     /// </summary>
     [Obsolete("Not Obsolete, but this temporary as we fix existing unstable tests and cannot be used for new tests")]
-    [XunitTestCaseDiscoverer("Xunit.RetryFactDiscoverer", "XunitRetry")]
+    [XunitTestCaseDiscoverer("Xunit.RetryFactDiscoverer", "Stratis.XUnitRetry")]
     public class RetryAttribute : FactAttribute
     { 
         public RetryAttribute(int maxRetries = 1, int exponentialBackoffMs = 5000)
