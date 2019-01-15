@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stratis.FodyNlogAdapter", "Stratis.FodyNlogAdapter\Stratis.FodyNlogAdapter.csproj", "{6D78E174-8171-413F-9555-F9470EF3FE20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stratis.XUnitRetry", "Stratis.XUnitRetry\Stratis.XUnitRetry.csproj", "{08DC0FCF-93CA-4333-862F-8D699642A928}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D78E174-8171-413F-9555-F9470EF3FE20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D78E174-8171-413F-9555-F9470EF3FE20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D78E174-8171-413F-9555-F9470EF3FE20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D78E174-8171-413F-9555-F9470EF3FE20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08DC0FCF-93CA-4333-862F-8D699642A928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08DC0FCF-93CA-4333-862F-8D699642A928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08DC0FCF-93CA-4333-862F-8D699642A928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08DC0FCF-93CA-4333-862F-8D699642A928}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3238B3B9-5F32-4D0A-B2BB-24D791B8614E}
+	EndGlobalSection
+EndGlobal
